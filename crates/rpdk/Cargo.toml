@@ -1,0 +1,11 @@
+[package]
+name = "rpdk"
+description = "Rune Plugin Development Kit"
+publish = true
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
+rune_remote_brp = { path = "../rune_remote_brp" }
+ureq = { version = "3.1.2" }
